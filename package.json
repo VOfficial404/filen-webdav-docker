@@ -1,0 +1,19 @@
+{
+  "name": "express-hello-world",
+  "version": "1.0.0",
+  "description": "Express Hello World",
+  "main": "index.js",
+  "repository": "https://github.com/VOfficial404/filen-webdav-PaaS",
+  "author": "V",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@filen/webdav": "^0.2.55"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
