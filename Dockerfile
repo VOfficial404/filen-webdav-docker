@@ -5,6 +5,4 @@ COPY /* /run/
 
 RUN npm install -r package.json
 
-FROM node:20-alpine
-
 ENTRYPOINT [ "node", "index.js" ]
